@@ -44,7 +44,7 @@ describe('Siskel', function() {
     it('should have a default comparator for title', function() {
       expect(collection.comparator).to.equal('title');
     });
-
+     
     it('should update its comparator', function() {
       collection.sortByField('rating');
       expect(collection.comparator).to.equal('rating');
